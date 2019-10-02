@@ -10,6 +10,11 @@ def map(source_array)
 end
 
 def reduce(source_array, sv=nil)
+  if sv
+    num1 = sv
+    i = 0
+  else
+    num[0] = array[0]
   new = []
   i = 0
   while i < source_array.length do
