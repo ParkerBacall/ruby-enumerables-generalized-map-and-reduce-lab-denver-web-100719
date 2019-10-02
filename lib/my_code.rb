@@ -8,3 +8,5 @@ def map(source_array)
   end
   return new)
 end
+
+map(source_array) |innards|
