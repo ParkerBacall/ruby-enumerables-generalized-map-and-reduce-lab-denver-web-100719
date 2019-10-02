@@ -14,7 +14,7 @@ def reduce(source_array, sv=nil)
     num1 = sv
     i = 0
   else
-    num[0] = array[0]
+    num1 = array[0]
   new = []
   i = 0
   while i < source_array.length do
