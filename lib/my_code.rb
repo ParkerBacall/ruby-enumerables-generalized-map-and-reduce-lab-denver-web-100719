@@ -9,7 +9,7 @@ def map(source_array)
   new
 end
 
-def reduce(source_array, sv = nil)
+def reduce(source_array, sv=nil)
   new = []
   i = 0
   while i < source_array.length do
