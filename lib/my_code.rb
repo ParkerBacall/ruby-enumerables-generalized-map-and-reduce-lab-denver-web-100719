@@ -1,10 +1,10 @@
 # Your Code Here
 def map(source_array)
-  new = []
+  yield (new = []
   i = 0
   while i < source_array.length do
-    new.push( source_array[i] * -1 ) # <== Unique work
+    #new.push( source_array[i] * -1 ) # <== Unique work
     i += 1
   end
-  return new
+  return new)
 end
